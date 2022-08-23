@@ -1,0 +1,29 @@
+.pufipuff_main {
+    display: flex;
+}
+
+.pufipuff_backg {
+    background-image: url('../../assets/puff.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+}
+
+.pufipuff_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+}
+

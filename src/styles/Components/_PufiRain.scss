@@ -1,0 +1,30 @@
+.mainRain {
+    display: flex;
+
+}
+
+.btn {
+    background-image: url('../../assets/sombrilla.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 400px;
+}
+
+.text img {
+    width: 70px;
+    height: 70px;
+}
