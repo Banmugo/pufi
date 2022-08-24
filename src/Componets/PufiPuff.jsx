@@ -13,7 +13,8 @@ function PufiPuff() {
           <p> Descripcion de producto. Este es un texto simulado.</p>
           <button> {seeMore}</button>
         </div>
-        <div className='pufipuff_backg'>                    
+        <div className='pufipuff_backg'> 
+          <button> Shop</button>                    
         </div>
     </div>
   )

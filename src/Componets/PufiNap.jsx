@@ -8,11 +8,12 @@ function PufiNap() {
     <div className='pufinap_main'>
     <div className='pufinap_text'>
       <img src={puff2} alt="img" />
-      <h3>Pufi PUFF</h3>
+      <h3>Pufi NAP</h3>
       <p> Descripcion de producto. Este es un texto simulado.</p>
       <button> {seeMore}</button>
     </div>
-    <div className='pufinap_backg'>                    
+    <div className='pufinap_backg'>
+      <button> Shop</button>                     
     </div>
 </div>
   )
