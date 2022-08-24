@@ -1,0 +1,39 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.form2 {
+    display: flex;
+
+    input {
+        width: 600px;
+        height: 35px;
+        border-right: none;
+    }
+
+    button {
+        height: 41px;
+        border-left: none;
+        background: transparent;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        img {
+            width: 18px;
+            height: 14px;
+        }
+
+    }
+}
+
+    .errors {
+        p {
+            font-size: 18px;
+            color: red;
+        }
+    }

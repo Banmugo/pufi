@@ -1,0 +1,12 @@
+.pufiCart_main {
+    display: $displayDivs;
+}
+
+.pufiCart_backg {
+    background-image: $capabackagraund, url('../../assets/bolsa.jpg');
+    @include divBackground();
+}
+
+.pufiCart_text {
+    @include divText();
+}

@@ -1,0 +1,34 @@
+// variables
+
+$displayDivs: flex;
+$capabackagraund: linear-gradient(rgba(5, 7, 12, 0.60), rgba(5, 7, 12, 0.60));
+$fontInfo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$colorFontInfoh5: #1b1b1b9f;
+$negritaFooter: bold;
+
+// mixins
+
+@mixin divBackground {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px; 
+}
+
+@mixin  divText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }  
+      
+}

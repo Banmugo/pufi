@@ -1,5 +1,4 @@
 import React from 'react'
-// import stl from './Style/PufiPuff.module.css'
 import puff2 from '../assets/puff2.jpg'
 
 function PufiPuff() {
@@ -10,7 +9,7 @@ function PufiPuff() {
     <div className='pufipuff_main'>
         <div className='pufipuff_text'>
           <img src={puff2} alt="img" />
-          <h3>Pufi RAIN</h3>
+          <h3>Pufi PUFF</h3>
           <p> Descripcion de producto. Este es un texto simulado.</p>
           <button> {seeMore}</button>
         </div>

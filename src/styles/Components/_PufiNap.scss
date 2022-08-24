@@ -1,0 +1,16 @@
+.pufinap_main {
+    display: $displayDivs;
+}
+
+.pufinap_backg {
+    background-image: $capabackagraund, url('../../assets/nap.jpg');
+    @include divBackground();
+}
+
+.pufinap_text {
+    @include divText();
+
+    img{
+        height: 120px;
+    }
+}

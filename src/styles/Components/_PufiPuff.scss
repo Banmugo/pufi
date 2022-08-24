@@ -1,29 +1,13 @@
 .pufipuff_main {
-    display: flex;
+    display: $displayDivs;
 }
 
 .pufipuff_backg {
-    background-image: url('../../assets/puff.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 500px;
+    background-image: $capabackagraund, url('../../assets/puff.jpg');
+    @include divBackground();
 }
 
 .pufipuff_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 500px;
-
-    img {
-        width: 70px;
-        height: 70px;
-    }
+    @include divText();
 }
 

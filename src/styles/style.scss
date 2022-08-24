@@ -1,10 +1,19 @@
  // archivo para importar
 
+
 // ui settings
+
+@import './base/settings';
+@import './base/index.scss';
 
 // components
 
 @import './Components/PufiPuff';
 @import './Components/PufiRain';
+@import './Components/PufiCart';
+@import './Components/PufiNap';
+@import './Components/Information';
+@import './Components/Form';
+@import './Components/Footer';
 
 // screnns
