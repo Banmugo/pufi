@@ -15,7 +15,19 @@ $negritaFooter: bold;
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 500px; 
+    height: 500px;
+    
+    button {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;        
+        padding: 10px;
+        
+        &:hover {
+            cursor: pointer;
+            transform: scaleX(1.3) scaleY(1.3);
+        }
+    }
 }
 
 @mixin  divText {
