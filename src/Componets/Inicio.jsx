@@ -13,7 +13,6 @@ function Inicio() {
           <h4>NUNCA FUE TAN FÁCIL.</h4>
         </div>
         <div className='btn'>
-          {/* <a href=""></a> */}
           <button type='button'>SHOP</button>
         </div>
       </div>

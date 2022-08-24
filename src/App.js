@@ -1,4 +1,3 @@
-// import './App.scss'
 import Footer from './Componets/Footer';
 import Information from './Componets/Information';
 import Inicio from './Componets/Inicio';
@@ -10,7 +9,6 @@ import PufiRain from './Componets/PufiRain';
 function App() {
   return (
     <div className='hola'>
-      {/* <Navbar /> */}
       <Inicio />
       <div id='pufirain'>
         <PufiRain />
