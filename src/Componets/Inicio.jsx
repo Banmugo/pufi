@@ -1,9 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 function Inicio() {
   return (
-    <div>
-        <h1> carrusel de img</h1>
+    <div className='inicio'>
+      <div className='inicionavbar'>
+        <Navbar />
+      </div>
+
     </div>
   )
 }

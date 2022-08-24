@@ -7,7 +7,8 @@
 @import './base/index.scss';
 
 // components
-
+@import './Components/Navbar';
+@import './Components/Inicio';
 @import './Components/PufiPuff';
 @import './Components/PufiRain';
 @import './Components/PufiCart';
