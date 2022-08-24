@@ -1,5 +1,6 @@
 .pufiRain_main {
     display: $displayDivs;
+    flex-wrap: wrap;    
 }
 
 .pufiRain_btn {
@@ -9,4 +10,11 @@
 
 .pufiRain_text {
     @include divText()
+}
+
+@media (max-width: 600px ) {
+    .pufiRain_btn, .pufiRain_text {
+        width: 100%;
+    }
+    
 }

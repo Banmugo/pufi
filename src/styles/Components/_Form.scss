@@ -1,8 +1,6 @@
 .form {
     display: flex;
     flex-direction: column;
-
-
 }
 
 .form2 {
@@ -27,13 +25,22 @@
             width: 18px;
             height: 14px;
         }
-
     }
 }
 
-    .errors {
-        p {
-            font-size: 18px;
-            color: red;
-        }
+.errors {
+    p {
+        font-size: 18px;
+        color: red;
     }
+}
+
+@media (max-width: 600px) {
+    .form2 {
+        input {
+            width: 200px;
+            height: 35px;
+            border-right: none;
+        }
+    }        
+}

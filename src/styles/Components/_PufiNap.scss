@@ -1,5 +1,6 @@
 .pufinap_main {
     display: $displayDivs;
+    flex-wrap: wrap;  
 }
 
 .pufinap_backg {
@@ -13,4 +14,10 @@
     img{
         height: 120px;
     }
+}
+
+@media (max-width: 600px ) {
+    .pufinap_backg, .pufinap_text {
+        width: 100%;
+    }    
 }

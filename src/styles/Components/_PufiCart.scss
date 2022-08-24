@@ -1,5 +1,6 @@
 .pufiCart_main {
     display: $displayDivs;
+    flex-wrap: wrap;  
 }
 
 .pufiCart_backg {
@@ -9,4 +10,10 @@
 
 .pufiCart_text {
     @include divText();
+}
+
+@media (max-width: 600px ) {
+    .pufiCart_backg, .pufiCart_text {
+        width: 100%;
+    }    
 }

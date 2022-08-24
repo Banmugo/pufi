@@ -10,12 +10,12 @@
     display: flex;
     flex-flow: row wrap;
     width: 60%;
-    // height: 450px;
     justify-content: center;
     align-items: center;    
     margin: 50px;
     padding: 2px;
-    align-content: center;     
+    align-content: center; 
+    box-sizing: $boxpadding;    
 
     img { 
         margin: 1px;

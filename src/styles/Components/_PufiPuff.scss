@@ -1,5 +1,6 @@
 .pufipuff_main {
     display: $displayDivs;
+    flex-wrap: wrap;  
 }
 
 .pufipuff_backg {
@@ -9,5 +10,11 @@
 
 .pufipuff_text {
     @include divText();
+}
+
+@media (max-width: 600px ) {
+    .pufipuff_backg, .pufipuff_text {
+        width: 100%;
+    }    
 }
 

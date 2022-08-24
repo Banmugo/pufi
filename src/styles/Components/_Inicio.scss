@@ -2,8 +2,7 @@
     background-image: url('../../assets/puffinicio.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    margin-top: 0;  
+    height: 100%;
     display: flex;
     flex-direction: column;     
 }
@@ -34,17 +33,28 @@
     width: 40px;
     height: 30px;
     margin-top: 200px;
+    margin-bottom: 200px;
     
     button {
         background-color: transparent;
         color: white;
         border: 2px solid white;        
         padding: 10px;
+        box-sizing: $boxpadding;
         
         &:hover {
             cursor: pointer;
             transform: scaleX(1.3) scaleY(1.3);
         }
 
+    }
+}
+
+@media (max-width: 600px){
+    .btn {
+        margin-bottom: 100px;
+    }
+    .letrasinicio h4 {
+        color: #ece8e8;
     }
 }

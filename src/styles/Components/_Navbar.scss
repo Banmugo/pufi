@@ -2,8 +2,11 @@
     display: flex;
     justify-content: center;
     justify-content: space-between;    
-    background-color: transparent; 
-   padding-top: 30px;
+    background-color: transparent;
+    padding-top: 30px;
+    width: 100%;
+    box-sizing: $boxpadding;
+    flex-wrap: wrap;
 }
 
 .linksnav {
@@ -42,6 +45,7 @@
 
 .opcions {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     margin-right: 25px;
@@ -63,3 +67,6 @@
     display: flex;
     border-right: 1px solid rgba(226, 224, 224, 0.979);
 }
+
+
+

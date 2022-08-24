@@ -8,7 +8,7 @@ import PufiRain from './Componets/PufiRain';
 
 function App() {
   return (
-    <div className='hola'>
+    <div className='containerglobal'>
       <Inicio />
       <div id='pufirain'>
         <PufiRain />

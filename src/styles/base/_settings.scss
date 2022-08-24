@@ -5,6 +5,7 @@ $capabackagraund: linear-gradient(rgba(5, 7, 12, 0.60), rgba(5, 7, 12, 0.60));
 $fontInfo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 $colorFontInfoh5: #1b1b1b9f;
 $negritaFooter: bold;
+$boxpadding: border-box;
 
 // mixins
 
@@ -15,6 +16,7 @@ $negritaFooter: bold;
     justify-content: center;
     align-items: center;
     width: 50%;
+    min-width: 300px;
     height: 500px;
 
     button {
@@ -28,15 +30,15 @@ $negritaFooter: bold;
             background-color: transparent;
             color: white;
             border: 2px solid white;        
-            padding: 10px;            
+            padding: 10px; 
+            box-sizing: $boxpadding;           
             
             &:hover {
                 cursor: pointer;
                 transform: scaleX(1.3) scaleY(1.3);
             }
         }
-    }
-    
+    }    
 }
 
 @mixin  divText {
@@ -45,6 +47,7 @@ $negritaFooter: bold;
     justify-content: center;
     align-items: center;
     width: 50%;
+    min-width: 300px;
     height: 500px;
 
     img {
@@ -57,11 +60,11 @@ $negritaFooter: bold;
         border: none;
         color: black;       
         padding: 10px;
+        box-sizing: $boxpadding;
         
         &:hover {
             cursor: pointer;
             transform: scaleX(1.3) scaleY(1.3);
         }
-    }
-      
+    }      
 }
